@@ -1,0 +1,117 @@
+/* 
+Compile this file to css/custom_MXZWdOvS.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Residence Slider  (#2) */
+.timer {
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+  }
+  .timer:after {
+    content:  "";
+    position: absolute;
+    height: 4px;
+    left: 0; top: 0;
+    background: #00ffCC;
+  }
+  .slider > li.selected .timer:after {
+    width: 0%;
+    animation: 5s timer linear;
+  }
+  @keyframes timer {
+    to { width: 100%; }
+  }
+
+/* Quadruple Suite (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-230a07b5"] */
+.slide[data-cid="slide-01-230a07b5"]{
+  .controller-146{
+    > li{
+      transition: .15s;
+      overflow: hidden;
+      &:after{
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: rgba($blue, 0.5);  
+        border: 4px solid $blue;
+        opacity:0;
+        transition: .15s;
+      }
+      &:hover{
+        transform:scale(1.1);
+      }
+      &.selected:after{
+        opacity:1;    
+      }
+    }
+  }
+}
+
+/* quad photos (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-147-11abe451"] */
+.slide[data-cid="slide-147-11abe451"]{
+  .img-147{
+    max-width:unset;
+    max-height:100vh;
+    @include media($phablet, max) {
+      max-height:50vh;
+    }
+  }
+}
+
+/* Double Suites (#5) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-118-e15b7c54"] */
+.slide[data-cid="slide-118-e15b7c54"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+}
+
+/* double photos (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-147-3e5b97d6"] */
+.slide[data-cid="slide-147-3e5b97d6"]{
+  .img-147{
+    max-width:unset;
+    max-height:100vh;
+    @include media($phablet, max) {
+      max-height:50vh;
+    }
+  }
+}
+
+/* Panel Bottom 05 */
+.original{
+  background-color: rgba(236, 235, 232, 0.75);
+}

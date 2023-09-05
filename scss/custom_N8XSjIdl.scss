@@ -1,0 +1,100 @@
+/* 
+Compile this file to css/custom_N8XSjIdl.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 137 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-137-2c9498f7"] */
+.slide[data-cid="slide-137-2c9498f7"]{
+  .img-137{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    max-height:80vh;
+  }
+}
+
+/* Slide 01 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-2700fdfc"] */
+.slide[data-cid="slide-01-2700fdfc"]{
+  .flex-47 .material-icons {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 36px;
+  }
+}
+
+/* Slide 146 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-f5c3d67b"] */
+.slide[data-cid="slide-146-f5c3d67b"]{
+  .controller-146{
+    > li{
+      transition: .15s;
+      overflow: hidden;
+      &:after{
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: rgba($blue, 0.5);  
+        border: 4px solid $blue;
+        opacity:0;
+        transition: .15s;
+      }
+      &:hover{
+        transform:scale(1.1);
+      }
+      &.selected:after{
+        opacity:1;    
+      }
+    }
+  }
+}
+
+/* Slide 147 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-147-4521b708"] */
+.slide[data-cid="slide-147-4521b708"]{
+  .img-147{
+    max-width:unset;
+    max-height:100vh;
+    @include media($phablet, max) {
+      max-height:50vh;
+    }
+  }
+}
+
+/* Slide 146 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-7fa9d790"] */
+.slide[data-cid="slide-146-7fa9d790"]{
+  .controller-146{
+    > li{
+      transition: .15s;
+      overflow: hidden;
+      &:after{
+        content:'';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background: rgba($blue, 0.5);  
+        border: 4px solid $blue;
+        opacity:0;
+        transition: .15s;
+      }
+      &:hover{
+        transform:scale(1.1);
+      }
+      &.selected:after{
+        opacity:1;    
+      }
+    }
+  }
+}

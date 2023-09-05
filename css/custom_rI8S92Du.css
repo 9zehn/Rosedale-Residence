@@ -1,0 +1,57 @@
+/* Location (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-133-f2f79613"] */
+.slide[data-cid=slide-133-f2f79613] .btn-133.circle {
+  line-height: 60px;
+}
+.slide[data-cid=slide-133-f2f79613] .btn-133.stroke {
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.slide[data-cid=slide-133-f2f79613].whiteSlide .btn-133.stroke {
+  color: #202020 !important;
+  border: 1px solid rgba(32, 32, 32, 0.2) !important;
+}
+
+/* Slide 47 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-47-46410723"] */
+.slide[data-cid=slide-47-46410723] .flex-47 .material-icons {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-size: 36px;
+}
+
+/* Slide 162 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-162-c5b739cb"] */
+@media (max-width: 1439px) {
+  .slide[data-cid=slide-162-c5b739cb] .img-162 {
+    max-width: 269%;
+  }
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-162-c5b739cb] .img-162 {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .slide[data-cid=slide-162-c5b739cb] .img-162 {
+    max-width: none !important;
+  }
+}
+.slide[data-cid=slide-162-c5b739cb] .box-162 {
+  height: 0;
+}
+@media (max-width: 1439px) {
+  .slide[data-cid=slide-162-c5b739cb] .box-162 {
+    padding-top: 65%;
+  }
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-162-c5b739cb] .box-162 {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .slide[data-cid=slide-162-c5b739cb] .box-162 {
+    padding-top: 180px;
+  }
+}

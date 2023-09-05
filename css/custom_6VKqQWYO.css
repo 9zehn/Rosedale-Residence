@@ -1,0 +1,27 @@
+/* Kelowna Photo (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-141-a9d50961"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-141-a9d50961] .box-141-center {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1024px) {
+  .slide[data-cid=slide-141-a9d50961] .box-141-right {
+    margin-top: -100px;
+  }
+}
+
+/* Campus Photo (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-141-62b9e6a7"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-141-62b9e6a7] .box-141-center {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1024px) {
+  .slide[data-cid=slide-141-62b9e6a7] .box-141-right {
+    margin-top: -100px;
+  }
+}

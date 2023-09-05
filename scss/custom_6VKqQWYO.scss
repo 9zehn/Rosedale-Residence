@@ -1,0 +1,40 @@
+/* 
+Compile this file to css/custom_6VKqQWYO.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Kelowna Photo (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-141-a9d50961"] */
+.slide[data-cid="slide-141-a9d50961"]{
+  .box-141-center{
+    @include media($phablet, max) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  .box-141-right{
+    @include media($tablet, min) {
+      margin-top:-100px;
+    }
+  }
+}
+
+/* Campus Photo (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-141-62b9e6a7"] */
+.slide[data-cid="slide-141-62b9e6a7"]{
+  .box-141-center{
+    @include media($phablet, max) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+  .box-141-right{
+    @include media($tablet, min) {
+      margin-top:-100px;
+    }
+  }
+}
