@@ -1,7 +1,7 @@
 <?php
 
 /* SETTINGS */
-$recipient = "your.email@gmail.com";
+$recipient = "gruberleon19@gmail.com";
 $subject = "New Message from Contact Form";
 
 if($_POST){
@@ -9,6 +9,7 @@ if($_POST){
   /* DATA FROM HTML FORM */
   $name = $_POST['name'];
   $email = $_POST['email'];
+  $subj = $_POST['subject55'];
   $message = $_POST['message'];
   //$phone = $_POST['phone'];
 
@@ -33,7 +34,7 @@ if($_POST){
   /* MESSAGE TEMPLATE */
   $mailBody = "Name: $name \n\r" .
               "Email:  $email \n\r" .
-              "Subject:  $subject \n\r" .
+              "Subject:  $subj \n\r" . //CHANGED from $subject
               //"Phone:  $phone \n\r" .
               "Message: $message";
 
