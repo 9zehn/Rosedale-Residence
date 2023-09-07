@@ -1,4 +1,4 @@
-/* Quadruple Suite (#2) */
+/* Slide 146 (#2) */
 
 $(function(){
   var slideKey = 118;

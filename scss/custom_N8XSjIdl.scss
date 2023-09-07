@@ -19,7 +19,37 @@ More information here: https://slides.gitbook.io/manual/scss
   }
 }
 
-/* Slide 01 (#2) */
+/* Slide 146 (#2) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-f5c3d67b"] */
+.slide[data-cid="slide-146-f5c3d67b"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+  
+  }
+
+/* Slide 01 (#3) */
 /* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-2700fdfc"] */
 .slide[data-cid="slide-01-2700fdfc"]{
   .flex-47 .material-icons {
@@ -29,72 +59,32 @@ More information here: https://slides.gitbook.io/manual/scss
   }
 }
 
-/* Slide 146 (#3) */
-/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-f5c3d67b"] */
-.slide[data-cid="slide-146-f5c3d67b"]{
-  .controller-146{
-    > li{
-      transition: .15s;
-      overflow: hidden;
-      &:after{
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background: rgba($blue, 0.5);  
-        border: 4px solid $blue;
-        opacity:0;
-        transition: .15s;
-      }
-      &:hover{
-        transform:scale(1.1);
-      }
-      &.selected:after{
-        opacity:1;    
-      }
-    }
-  }
-}
-
-/* Slide 147 (#4) */
-/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-147-4521b708"] */
-.slide[data-cid="slide-147-4521b708"]{
-  .img-147{
-    max-width:unset;
-    max-height:100vh;
-    @include media($phablet, max) {
-      max-height:50vh;
-    }
-  }
-}
-
 /* Slide 146 (#5) */
-/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-7fa9d790"] */
-.slide[data-cid="slide-146-7fa9d790"]{
-  .controller-146{
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-146-e31eb79b"] */
+.slide[data-cid="slide-146-e31eb79b"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
     > li{
-      transition: .15s;
-      overflow: hidden;
-      &:after{
-        content:'';
-        position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-        background: rgba($blue, 0.5);  
-        border: 4px solid $blue;
-        opacity:0;
-        transition: .15s;
+      p{
+        opacity: 0.6;
+        transition:.15s;
       }
-      &:hover{
-        transform:scale(1.1);
-      }
-      &.selected:after{
-        opacity:1;    
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
       }
     }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
   }
-}
+  .box-118{
+    width: 280px !important;
+  }
+  
+  }

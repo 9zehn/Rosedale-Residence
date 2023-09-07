@@ -1,0 +1,136 @@
+/* 
+Compile this file to css/custom_wuyTrXYt.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 01 (#1) */
+.timer {
+    position: relative;
+    width: 0%;
+    height: 4px;
+    background: #cc00ff;
+  }
+  .timer:after {
+    content:  "";
+    position: absolute;
+    height: 4px;
+    left: 0; top: 0;
+    background: #cc00ff;
+  }
+ul.slider {
+    max-width: 100%; /* Adjust the width to your preferred value */
+    margin: 0 auto;   /* To center the slider on the page */
+  }
+  .slider > li.selected .timer:after {
+    width: 0%;
+    animation: 5s timer linear;
+  }
+  @keyframes timer {
+    to { width: 100%; }
+  }
+
+/* Slide 01 (#2) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-329b2c58"] */
+.slide[data-cid="slide-01-329b2c58"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+  
+  }
+
+/* Slide 01 (#4) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-2e82c222"] */
+.slide[data-cid="slide-01-2e82c222"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+  
+  }
+
+/* Slide 01 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-a122ab27"] */
+.slide[data-cid="slide-01-a122ab27"]{
+  .img-147{
+    max-width:unset;
+    max-height:100vh;
+    @include media($phablet, max) {
+      max-height:50vh;
+    }
+  }
+}
+
+/* Slide 01 (#6) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-01-152a86fa"] */
+.slide[data-cid="slide-01-152a86fa"]{
+  .external-slider-118{
+    overflow:hidden;
+    width:calc(100% + 8vw + 15px);
+  }
+  .controller-external-118{
+    > li{
+      p{
+        opacity: 0.6;
+        transition:.15s;
+      }
+      &.selected, &:hover{
+        p{
+          opacity: 1;
+        }
+      }
+    }
+    @include media($phablet, max) {
+      display: inline-block;
+    }
+  }
+  .box-118{
+    width: 280px !important;
+  }
+  
+  }
