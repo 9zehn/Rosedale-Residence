@@ -9,7 +9,7 @@ if($_POST){
   /* DATA FROM HTML FORM */
   $name = $_POST['name'];
   $email = $_POST['email'];
-  $subj = $_POST['subject55'];
+  //$subj = $_POST['subject55'];
   $message = $_POST['message'];
   //$phone = $_POST['phone'];
 
